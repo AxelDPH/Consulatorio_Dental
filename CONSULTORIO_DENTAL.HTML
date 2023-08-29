@@ -17,23 +17,26 @@
       </center>
       <ul>
           <li><a href="https://www.imagendental.com/" target="_blank">Servicios</a></li>
-          <a><a href="https://www.imagendental.com/" target="_blank">Ubicaciones</a></li>
+          <li><a href="https://www.imagendental.com/" target="_blank">Ubicaciones</a></li>
           <li><a href="https://www.imagendental.com/" target="_blank">Seguro</a></li>
           <li><a href="https://www.imagendental.com/" target="_blank">Acerca de</a></li>
           <li><a href="https://www.imagendental.com/" target="_blank">Contacto</a></li>
           <li><a href="https://www.imagendental.com/" target="_blank">81-1212-2121</a></li>
+          <li> <a href="SobreNosotros.html" target="_blank">Sobre Nosotros</a></li>
           <!--Boton valoracion-->
           <li><a href="https://www.imagendental.com" target="_blank"><button>Programar valoración</button></a></li>
       </ul>
-  </nav>
+    </nav>
 
 
-
+      
 
   <!--Primera seccion, seccion principal-->
   <div class="divPrincipal">
       <img src="./img/slogan.webp" class="imgPrincipal">
       <h1 class="h1Principal">La Vida es Mejor Cuando Sonríes :) </h1>
+
+
     
 
 
@@ -115,6 +118,70 @@
       <li>Opinion 2</li>
       <li>Opinion 3</li>
   </ul>
+</div>
+
+<div class="divSecundario">
+  <h2>Ingresa a tu cuenta y agenda tu cita</h2>
+  <form action="procesar_formulario" method="post"></form>
+  <br>
+  <h4>Nombre de usuario</h4>
+  <input type="text" name="usuario" placeholder="usuario">
+  <br>
+  <h4>Contraseña</h4>
+  <input type="password" name="Contraseña" placeholder="contraseña">
+  <br>
+  <form action="procesar_formulario" method="post">
+    <input type="submit" value="Enviar">
+  </form>
+
+</div>
+
+<div class="divSecundario">
+  <h3>No tienes cuenta? Registrate aquí</h3>
+  <h4>Correo electronico</h4>
+  <input type="email" name="correo" placeholder="ingresa tu correo">
+  <br>
+  <h4>Nombre de usuario</h4>
+  <input type="text" name="usuario" placeholder="Usuario">
+  <br>
+  <h4>Contraseña</h4>
+  <input type="password" name="Contraseña" placeholder="contraseña">
+  <br>
+  <h4>Verifica contraseña</h4>
+  <input type="password" name="Contraseña" placeholder="contraseña">
+  <br>
+  
+
+  <h4>Lugar de recidencia</h4>
+  <select name="ciudades" id="ciudades">
+    <option value="" disabled selected>Selecciona ciudad</option>
+    <option value="Guadalajara">Guadalajara</option>
+    <option value="Zapopan">Zapopan</option>
+    <option value="Tlaquepaque">Tlaquepaque</option>
+  </select>
+
+  <h4>Sexo</h4>
+  <form action="/enviar-respuesta">
+   
+    <label for="Masculino">
+      <input id="Masculino" type="radio" value="Masculino" name="Masculino-Femenino" checked>Masculino
+    </label>
+    <br>
+
+    <label for="Femenino">
+      <input id="Femenino" type="radio" value="Femenino" name="Masculino-Femenino">Femenino
+    </label>
+    <br>
+  
+  <h4>Fecha de nacimiento</h4>
+  <input type="date" name="fecha">
+
+  <form action="procesar_formulario" method="post">
+    <input type="submit" value="Enviar">
+  </form>
+
+
+
 </div>
 
 </body>
