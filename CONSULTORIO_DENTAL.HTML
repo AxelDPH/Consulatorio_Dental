@@ -3,186 +3,326 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DienteFeliz</title>
- <link rel="stylesheet" href="./styles/styles.css">
+    <title>El Diente Feliz</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
-<body style="background-color:#D5F7FF;">
-
-          <!--Barra de navegacion-->
-    <nav>
-      <!--Logo de empresa-->
-      <center>
-          <img src="./img/logo.png" class="logo">
-      </center>
-      <ul>
-          <li><a href="https://www.imagendental.com/" target="_blank">Servicios</a></li>
-          <li><a href="https://www.imagendental.com/" target="_blank">Ubicaciones</a></li>
-          <li><a href="https://www.imagendental.com/" target="_blank">Seguro</a></li>
-          <li><a href="https://www.imagendental.com/" target="_blank">Acerca de</a></li>
-          <li><a href="https://www.imagendental.com/" target="_blank">Contacto</a></li>
-          <li><a href="https://www.imagendental.com/" target="_blank">81-1212-2121</a></li>
-          <li> <a href="SobreNosotros.html" target="_blank">Sobre Nosotros</a></li>
-          <!--Boton valoracion-->
-          <li><a href="https://www.imagendental.com" target="_blank"><button>Programar valoración</button></a></li>
-      </ul>
-    </nav>
+<body>
 
 
-      
-
-  <!--Primera seccion, seccion principal-->
-  <div class="divPrincipal">
-      <img src="./img/slogan.webp" class="imgPrincipal">
-      <h1 class="h1Principal">La Vida es Mejor Cuando Sonríes :) </h1>
 
 
-    
+<div class="container">
+    <div class="row" id="logo" >
 
-
-    <p>
-      En nuestro consultorio dental, nos enorgullece ofrecer una amplia gama de servicios dentales diseñados para mantener su sonrisa sana y radiante. Nuestro equipo altamente calificado y experimentado se dedica a brindar atención dental de la más alta calidad. 
-    </p>
-
-    <a href="https://www.imagendental.com" target="_blank"><button>Programar valoración</button></a>
+      <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+        
+            <img src="./img/limpieza-de-dientes.png" class="logo">
+            
+      </div>
     </div>
 
 
-    <!--Segunda seccion-->
-    <div class="divSecundario">
-      <img src="./img/imagen 1.jpg" class="imgSecundaria">
-      <h2>Diseñando tu sonrisa con los mejores servicios</h2>
-      <ul>
-          <li>Evaluación y planificación de diseño de sonrisa (Gratis)</li>
-          <li>Limpieza dental</li>
-          <li>Extracción simple</li>
-          <li>Extracción de muelas del juicio</li>
-          <li>Blanqueamiento Dental (Presencial y a domicilio)</li>
-          <li>Tratamiento de caries</li>
-          <li>Odontologia general y familiar</li>
-          <li>Invisalign</li>
-      </ul>
-      <a href="https://www.imagendental.com" target="_blank"><button>Más información</button></a>
+    <div class="row" id="barraNav">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Servicios</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Ubicaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Seguro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="SobreNosotros.html" target="_blank">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Progama Valoracion</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </div>
+    </div>
+<br>
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+           <div class="card">
+               <img src="./img/slogan.webp" class="card-img-top1" alt="...">
+           </div>
+       </div>  
+       
+   
+       <div class="col-sm-12 col-md-6 col-lg-9">
+           <div class="card">
+               <div class="card-body">
+                   <h2>La Vida es Mejor Cuando Sonríes :)</h2>
+                   <p>En nuestro consultorio dental, nos enorgullece ofrecer una amplia gama de servicios dentales diseñados para mantener su sonrisa sana y radiante. Nuestro equipo altamente calificado y experimentado se dedica a brindar atención dental de la más alta calidad.</p>
+               </div>
+           </div>
+       </div>
+    </div>
+
+
+    <br>
+   <div class="row">
+       <div class="col-sm-12 col-md-6 col-lg-3" id="2">
+        <div class="card">
+            <img src="./img/imagen 1.jpg" class="card-img-top" alt="...">
+        </div>
+       </div>  
+
+
+      <div class="col-sm-12 col-md-6 col-lg-9" id="1">
+        <div class="card">
+            <div class="card-body">
+                <h2>Diseñando tu sonrisa con los mejores servicios</h2>
+                <ul>
+                    <li>Evaluación y planificación de diseño de sonrisa (Gratis)</li>
+                    <li>Limpieza dental</li>
+                    <li>Extracción simple</li>
+                    <li>Extracción de muelas del juicio</li>
+                    <li>Blanqueamiento Dental (Presencial y a domicilio)</li>
+                    <li>Tratamiento de caries</li>
+                    <li>Odontologia general y familiar</li>
+                    <li>Invisalign</li>
+                </ul>
+                <a href="https://www.imagendental.com" target="_blank"><button>Más información</button></a>
+            </div>
+        </div>
+      </div>
+
+   </div>
+
+   <br>
+
+   <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+       <div class="card">
+           <img src="./img/imagen 2.jpg" class="card-img-top" alt="...">
+       </div>
+   </div>  
+   
+
+   <div class="col-sm-12 col-md-6 col-lg-9">
+       <div class="card">
+           <div class="card-body">
+            <h2>Contamos con dos ubicaciones en CDMX</h2>
+            <p>Nuestras ubicaciones están convenientemente ubicadas para que pueda entrar y salir rápidamente</p>
+            <a href="https://www.imagendental.com" target="_blank"><button>Ver ubicaciones</button></a>
+           </div>
+       </div>
+   </div>
   </div>
 
 
-  <!--Seccion Ubicaciones-->
-  <div class="divSecundario">
-    <img src="./img/imagen 2.jpg" class="imgPrincipal">
-    <h2>Contamos con dos ubicaciones en CDMX</h2>
-    <p>Nuestras ubicaciones están convenientemente ubicadas para que pueda entrar y salir rápidamente</p>
-    <a href="https://www.imagendental.com" target="_blank"><button>Ver ubicaciones</button></a>
-</div>
+    <br>
+   <div class="row">
 
 
-<div>
-  <!--SECCION DE IMAGENES-->
-</div>
+     <div class="col-sm-12 col-md-6 col-lg-3" id="2">
+        <div class="card">
+            <img src="./img/imagen 3.jpg" class="card-img-top" alt="...">
+        </div>
+     </div>  
 
+     
 
+    <div class="col-sm-12 col-md-6 col-lg-9" id="1">
+        <div class="card">
+            <div class="card-body">
+                <h2>¿Por qué elegirnos?</h2>
+                <ul>
+                    <li>Consultorio mejor valorado en el barrio</li>
+                    <li>Estudios limpios, cómodos y aesthetics.</li>
+                    <li>Calidad-precio</li>
+                </ul>
+                <a href="https://www.imagendental.com" target="_blank"><button>Más información</button></a>
+            </div>
+        </div>
+    </div>
 
-
-<!--Seccion Recomendacion tienda-->
-<div class="divSecundario">
-  <img src="./img/imagen 3.jpg" class="imgSecundaria">
-  <h2>¿Por qué elegirnos?</h2>
-  <ul>
-      <li>Consultorio mejor valorado en el barrio</li>
-      <li>Estudios limpios, cómodos y aesthetics.</li>
-      <li>Calidad-precio</li>
-  </ul>
-  <a href="https://www.imagendental.com" target="_blank"><button>Más información</button></a>
-</div>
-
-
-
-
-<!--Doctores-->
-<div class="divSecundario">
-  <img src="./img/imagen 4.jpg" class="imgPrincipal">
-  <h2>Nuestros dentistas aman su profesión y son altamente confiables, reputación 10/10</h2>
-  <!--IMAGENES Y NOMBRES DE DENTISTAS-->
-  <a href="https://www.imagendental.com" target="_blank"><button>Conoce nuestro equipo</button></a>
-</div>
-
-
-
-
-<!--Reseñas-->
-<div class="divSecundario">
-  <img src="./img/imagen 5.jpg" class="imgSecundaria">
-  <h2>Tus dientes están en buenas manos</h2>
-  <p>0 reseñas de 5 estrellas y contando....:)</p>
-  <ul>
-      <li>Opinion 1</li>
-      <li>Opinion 2</li>
-      <li>Opinion 3</li>
-  </ul>
-</div>
-
-<div class="divSecundario">
-  <h2>Ingresa a tu cuenta y agenda tu cita</h2>
-  <form action="procesar_formulario" method="post"></form>
-  <br>
-  <h4>Nombre de usuario</h4>
-  <input type="text" name="usuario" placeholder="usuario">
-  <br>
-  <h4>Contraseña</h4>
-  <input type="password" name="Contraseña" placeholder="contraseña">
-  <br>
-  <form action="procesar_formulario" method="post">
-    <input type="submit" value="Enviar">
-  </form>
-
-</div>
-
-<div class="divSecundario">
-  <h3>No tienes cuenta? Registrate aquí</h3>
-  <h4>Correo electronico</h4>
-  <input type="email" name="correo" placeholder="ingresa tu correo">
-  <br>
-  <h4>Nombre de usuario</h4>
-  <input type="text" name="usuario" placeholder="Usuario">
-  <br>
-  <h4>Contraseña</h4>
-  <input type="password" name="Contraseña" placeholder="contraseña">
-  <br>
-  <h4>Verifica contraseña</h4>
-  <input type="password" name="Contraseña" placeholder="contraseña">
-  <br>
-  
-
-  <h4>Lugar de recidencia</h4>
-  <select name="ciudades" id="ciudades">
-    <option value="" disabled selected>Selecciona ciudad</option>
-    <option value="Guadalajara">Guadalajara</option>
-    <option value="Zapopan">Zapopan</option>
-    <option value="Tlaquepaque">Tlaquepaque</option>
-  </select>
-
-  <h4>Sexo</h4>
-  <form action="/enviar-respuesta">
    
-    <label for="Masculino">
-      <input id="Masculino" type="radio" value="Masculino" name="Masculino-Femenino" checked>Masculino
-    </label>
-    <br>
+   </div>
 
-    <label for="Femenino">
-      <input id="Femenino" type="radio" value="Femenino" name="Masculino-Femenino">Femenino
-    </label>
-    <br>
-  
-  <h4>Fecha de nacimiento</h4>
-  <input type="date" name="fecha">
+   <br>
 
-  <form action="procesar_formulario" method="post">
-    <input type="submit" value="Enviar">
-  </form>
+   <div class="row">
+
+
+     <div class="col-sm-12 col-md-6 col-lg-3">
+       <div class="card">
+           <img src="./img/imagen 4.jpg" class="card-img-top" alt="...">
+       </div>
+     </div>  
+
+    <div class="col-sm-12 col-md-6 col-lg-9">
+       <div class="card">
+           <div class="card-body">
+            <h2>Nuestros dentistas aman su profesión y son altamente confiables, reputación 10/10</h2>
+            <!--IMAGENES Y NOMBRES DE DENTISTAS-->
+            <a href="https://www.imagendental.com" target="_blank"><button>Conoce nuestro equipo</button></a>
+           </div>
+       </div>
+   </div>
+
+    
+   
+  </div>
+
+  <br>
+
+  <div class="row">
+
+
+    <div class="col-sm-12 col-md-6 col-lg-3" id="2">
+        <div class="card">
+            <img src="./img/imagen 5.jpg" class="card-img-top" alt="...">
+        </div>
+    </div>  
+
+    <div class="col-sm-12 col-md-6 col-lg-9" id="1">
+        <div class="card">
+            <div class="card-body">
+                <h2>Tus dientes están en buenas manos</h2>
+                <p>0 reseñas de 5 estrellas y contando....:)</p>
+                <ul>
+                    <li>Opinion 1</li>
+                    <li>Opinion 2</li>
+                    <li>Opinion 3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+   
+
+   </div>
+
+   <br>
+
+   <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+       <div class="card">
+           <img src="./img/" class="card-img-top" alt="...">
+       </div>
+   </div>  
+   
+
+   <div class="col-sm-12 col-md-6 col-lg-9">
+       <div class="card">
+           <div class="card-body">
+               <h3>Límite los alimentos azucarados</h3>
+               <p>Los alimentos azucarados conducen a las caries dentales. Sea consciente de lo que consume leyendo los datos nutricionales y las etiquetas, tomando decisiones prudentes y eligiendo opciones con bajos contenidos de azúcares. Tenga en cuenta que los alimentos ricos en almidón como la pasta y el pan se descomponen en azúcar con el contacto de la saliva.</p>
+           </div>
+       </div>
+   </div>
+  </div>
+
+  <br>
+
+
+  <div class="row" id="inicio_y_registro">
+
+      <div class="col-sm-12 col-md-12 cl-lg-12 text-center" id="Inicio_cuenta">
+        <div class="inici_cuenta">
+        <h2>Ingresa a tu cuenta y agenda tu cita</h2>
+        <form action="procesar_formulario" method="post"></form>
+        </div>
+        <br>
+        <div class="usuario">
+        <h4>Nombre de usuario</h4>
+        <input type="text" name="Usuario" placeholder="usuario">
+        </div>
+        <br>
+        <div class="contraseña">
+        <h4>Contraseña</h4>
+        <input type="password" name="Contraseña" placeholder="contraseña">
+        </div>
+        <br>
+        <div class="boton_enviar">
+        <form action="procesar_formulario" method="post">
+          <input type="submit" value="Enviar">
+        </form>
+        </div>
+      
+      </div>
+      
+      <div class="col-sm-12 col-md-12 cl-lg-12 text-center">
+        <h3>No tienes cuenta? Registrate aquí</h3>
+        <h4>Correo electronico</h4>
+        <input type="email" name="correo" placeholder="ingresa tu correo">
+        <br>
+        <h4>Nombre de usuario</h4>
+        <input type="text" name="usuario" placeholder="Usuario">
+        <br>
+        <h4>Contraseña</h4>
+        <input type="password" name="Contraseña" placeholder="contraseña">
+        <br>
+        <h4>Verifica contraseña</h4>
+        <input type="password" name="Contraseña" placeholder="contraseña">
+        <br>
+        
+      
+        <h4>Lugar de recidencia</h4>
+        <select name="ciudades" id="ciudades">
+          <option value="" disabled selected>Selecciona ciudad</option>
+          <option value="Guadalajara">Guadalajara</option>
+          <option value="Zapopan">Zapopan</option>
+          <option value="Tlaquepaque">Tlaquepaque</option>
+        </select>
+      
+        <h4>Sexo</h4>
+        <form action="/enviar-respuesta">
+         
+          <label for="Masculino">
+            <input id="Masculino" type="radio" value="Masculino" name="Masculino-Femenino" checked>Masculino
+          </label>
+          <br>
+      
+          <label for="Femenino">
+            <input id="Femenino" type="radio" value="Femenino" name="Masculino-Femenino">Femenino
+          </label>
+          <br>
+        
+        <h4>Fecha de nacimiento</h4>
+        <input type="date" name="fecha">
+      
+        <form action="procesar_formulario" method="post">
+          <input type="submit" value="Enviar">
+        </form>
+      
+      
+      
+      </div>
+
+
+
+  </div>
+
+
+
+
+
 
 
 
 </div>
 
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

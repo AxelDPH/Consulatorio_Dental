@@ -1,15 +1,56 @@
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+/* #logo{
+    position: sticky;
+    top: 2px;
+} */
+
+/* #barraNav{
+    position: fixed;
+    top: 90;
+    left: 10;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+} */
+
+#Inicio_cuenta{
+    border: solid yellow 2px;
+    background-color:#5461f397;
+}
+
+.container{
+    background-color: aqua;
+}
+
+.card-img-top{
+    width: 900px;
+}
+
+
+/* 
+@media (max-width:400px) {
+    .card{
+        text-align: center;
+    }
+} */
+
+
 /*
 Logo de la empresa
 margen superior
 altura y ancho
 */
 
-
+/* 
 .logo{
     margin-top: 30px;
     height: 100px;
     width: 170px;
-}
+} */
 
 
 /*
@@ -23,14 +64,14 @@ tamaño de fuente
 */
 
 
-nav li{
+/* nav li{
     display:inline-block;
     width:10%;
     padding:6px 10px;
     text-align:center;
     border-radius: 15px;
     font-size:18px;
-}
+} */
 
 
 /*
@@ -39,11 +80,11 @@ sin formato de enlace
 color predeterminado
 */
 
-
+/* 
 a{
     text-decoration: none;
     color:#3A3636;
-}
+} */
 
 
 /*
@@ -59,7 +100,7 @@ color de fondo rosa y celeste,
 tamaño de texto
 */
 
-
+/* 
 .divPrincipal{
     height: 500px;
     padding-left: 50px;
@@ -81,7 +122,7 @@ tamaño de texto
     background-color: #D5F7FF;
     font-size: 22px;
     color: #3A3636;
-}
+} */
 
 
 /*
@@ -91,12 +132,12 @@ margen inferior
 tamaño de fuente
 */
 
-
+/* 
 .h1Principal{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 10px;
     font-size: 80px;
-}
+} */
 
 
 /*
@@ -111,7 +152,7 @@ tamalño de fuente
 */
 
 
-button{
+/* button{
     background-color: #1DD2FF;
     border: none;
     padding: 18px 30px 18px 30px;
@@ -119,7 +160,7 @@ button{
     font-weight: bold;
     margin-top: 15px;
     font-size: 18px;
-}
+} */
 
 
 /*
@@ -135,7 +176,7 @@ margen exterior derecho e izquierdo
 */
 
 
-.imgPrincipal{
+/* .imgPrincipal{
     height: 400px;
     width: 350px;
     border-radius: 25px;
@@ -152,4 +193,4 @@ margen exterior derecho e izquierdo
     float: left;
     margin-right: 50px;
     margin-left: 50px;
-}
+} */
